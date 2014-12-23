@@ -1,0 +1,143 @@
+body {
+    background-image: url("bamboo_extralarge.jpg");
+    background-repeat: no-repeat;
+}
+
+#page-wrap {
+    margin: 0 auto;
+	  width: 800px;
+  	height: 800px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+	
+}
+
+#bottomright_picture {
+    width: 240px;
+  	float: right;
+  	margin-left: 10px;
+  	margin-right: 150px;
+  	margin-top: 300px;
+    z-index: -1;
+}
+
+#bottomleft_picture {
+    width: 240px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 125px;
+	margin-top: 300px;
+
+}
+
+#topleft_picture {
+    float: left;
+  	margin-right: 10px;
+  	margin-left: 125px;
+  	margin-top: 10px;
+}
+
+#topright_picture {
+
+    float: right;
+  	margin-top: 10px;
+  	margin-right: 150px;
+}
+
+#inner_box_1 {
+	position: absolute;
+    display: inline-block;
+    background-color: black;
+    opacity:0.5;
+    height:20px;
+    width: 100px;
+	z-index: 1;
+	margin-left: -215px;
+    margin-top: 25px;
+	text-align: center;
+
+}
+
+#inner_box_2 {
+	position: absolute;
+    display: inline-block;
+    background-color: black;
+    opacity:0.5;
+    height:20px;
+    width: 100px;
+  	z-index: 1;
+	  margin-left: 360px;
+    margin-top: 25px;
+  	text-align: center;
+
+}
+
+#inner_box_3 {
+   	position: absolute;
+    display: inline-block;
+    background-color: black;
+    opacity:0.5;
+    height:20px;
+    width: 100px;
+  	z-index: 1;
+  	margin-left: 65px;
+    margin-top: 25px;
+  	text-align: center;
+
+}
+
+#inner_box_4 {
+  	position: absolute;
+    display: inline-block;
+    background-color: black;
+    opacity:0.5;
+    height:20px;
+    width: 100px;
+  	z-index: 1;
+  	margin-left: 70px;
+    margin-top: 25px;
+  	text-align: center;
+
+}
+
+#link_1 a,  #link_2 a, #link_3 a, #link_4 a {
+    font-family: "HelveticaNeue-Light",
+	"Helvetica Neue Light", "Helvetica Neue",
+	Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+	color: #ffffff;
+	text-decoration: none;
+
+}
+
+#picture_link_1, #picture_link_2,
+#picture_link_3, #picture_link_4 {
+    width: 240px;
+  	z-index: -2;
+}
+
+#social_media {
+    margin-left: 250px;
+}
+
+#logo {
+  	display: block;
+    margin-bottom: -270px;
+  	margin-left:250px;
+}
+
+#site_title {
+	font-family: "HelveticaNeue-Light",
+	"Helvetica Neue Light", "Helvetica Neue",
+	Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin-left: -10px;
+}
+
+#address {
+	font-family: "HelveticaNeue-Light",
+	"Helvetica Neue Light", "Helvetica Neue",
+	Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+  	margin-top: 10px;
+    margin-left: 120px;
+}
